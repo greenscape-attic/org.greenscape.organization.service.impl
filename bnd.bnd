@@ -7,3 +7,4 @@ Private-Package: org.greenscape.organization.service.impl
 	org.greenscape.organization.persistence;version=latest
 Bundle-Version: 0.1.0
 -dsannotations: *
+-sources: false
