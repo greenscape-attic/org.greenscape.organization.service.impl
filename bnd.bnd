@@ -1,10 +1,8 @@
 Private-Package: org.greenscape.organization.service.impl
--buildpath: osgi.core,\
-	osgi.cmpn,\
-	junit.osgi,\
+-buildpath: junit.osgi,\
 	org.greenscape.organization.service;version=latest,\
 	org.eclipse.osgi.services,\
 	org.greenscape.organization.persistence;version=latest
-Bundle-Version: 0.1.0
+Bundle-Version: 0.1.1
 -dsannotations: *
 -sources: false
