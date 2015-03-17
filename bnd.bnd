@@ -1,8 +1,11 @@
 Private-Package: org.greenscape.organization.service.impl
--buildpath: junit.osgi,\
+-buildpath:  \
+	junit.osgi,\
 	org.greenscape.organization.service;version=latest,\
 	org.eclipse.osgi.services,\
-	org.greenscape.organization.persistence;version=latest
+	org.greenscape.organization.persistence;version=latest,\
+	org.greenscape.organization;version=latest
 Bundle-Version: 0.1.1
 -dsannotations: *
--sources: false
+javac.source: 1.8
+javac.target: 1.8
